@@ -54,13 +54,13 @@ export default function EducationPartnerPage() {
     return (
       <div className="min-h-screen flex items-center justify-center px-4">
         <div className="text-center max-w-md">
-          <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-            <svg className="w-10 h-10 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <div className="w-20 h-20 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-6">
+            <svg className="w-10 h-10 text-teal-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
             </svg>
           </div>
-          <h1 className="text-3xl font-bold text-gray-900 mb-4">Application Submitted!</h1>
-          <p className="text-gray-600 mb-8">
+          <h1 className="text-3xl font-bold text-emerald-900 mb-4">Application Submitted!</h1>
+          <p className="text-emerald-800 mb-8">
             Thank you for your interest in becoming an education partner. Our team will
             review your application and contact you within 5-7 business days.
           </p>
@@ -73,10 +73,10 @@ export default function EducationPartnerPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-green-600 to-green-800 text-white py-16 px-4">
+      <section className="bg-gradient-to-br from-teal-600 to-teal-800 text-white py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Education Partner Program</h1>
-          <p className="text-xl text-green-100">
+          <p className="text-xl text-teal-100">
             Join us in providing educational opportunities, scholarships, and skill
             development programs to children from orphanages.
           </p>
@@ -84,18 +84,18 @@ export default function EducationPartnerPage() {
       </section>
 
       {/* Benefits */}
-      <section className="py-12 bg-gray-50">
+      <section className="py-12 bg-stone-100">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white p-6 rounded-xl shadow-sm">
-              <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <div className="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-teal-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path d="M12 14l9-5-9-5-9 5 9 5z" />
                   <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
                 </svg>
               </div>
-              <h3 className="font-bold text-gray-900 mb-2">Scholarship Programs</h3>
-              <p className="text-gray-600 text-sm">Provide full or partial scholarships to deserving students from orphanages.</p>
+              <h3 className="font-bold text-emerald-900 mb-2">Scholarship Programs</h3>
+              <p className="text-emerald-800 text-sm">Provide full or partial scholarships to deserving students from orphanages.</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
@@ -103,8 +103,8 @@ export default function EducationPartnerPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                 </svg>
               </div>
-              <h3 className="font-bold text-gray-900 mb-2">Skills Training</h3>
-              <p className="text-gray-600 text-sm">Offer vocational training and certification programs for practical skills.</p>
+              <h3 className="font-bold text-emerald-900 mb-2">Skills Training</h3>
+              <p className="text-emerald-800 text-sm">Offer vocational training and certification programs for practical skills.</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-4">
@@ -112,8 +112,8 @@ export default function EducationPartnerPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
               </div>
-              <h3 className="font-bold text-gray-900 mb-2">Resource Access</h3>
-              <p className="text-gray-600 text-sm">Share learning resources, library access, and online course materials.</p>
+              <h3 className="font-bold text-emerald-900 mb-2">Resource Access</h3>
+              <p className="text-emerald-800 text-sm">Share learning resources, library access, and online course materials.</p>
             </div>
           </div>
         </div>
@@ -122,12 +122,12 @@ export default function EducationPartnerPage() {
       {/* Registration Form */}
       <section className="py-16 px-4">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">Partnership Application</h2>
+          <h2 className="text-2xl font-bold text-emerald-900 mb-8 text-center">Partnership Application</h2>
 
           <form onSubmit={handleSubmit} className="space-y-8">
             {/* Institution Details */}
             <div className="bg-white p-6 rounded-xl shadow-sm border">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">Institution Details</h3>
+              <h3 className="text-lg font-semibold text-emerald-900 mb-4">Institution Details</h3>
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="md:col-span-2">
                   <label className="block text-sm font-medium text-gray-700 mb-1">Institution Name *</label>
@@ -137,7 +137,7 @@ export default function EducationPartnerPage() {
                     value={formData.institutionName}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
                   />
                 </div>
                 <div>
@@ -147,7 +147,7 @@ export default function EducationPartnerPage() {
                     value={formData.institutionType}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
                   >
                     <option value="">Select type</option>
                     <option value="university">University</option>
@@ -167,7 +167,7 @@ export default function EducationPartnerPage() {
                     value={formData.accreditation}
                     onChange={handleChange}
                     placeholder="e.g., Ministry of Education"
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
                   />
                 </div>
                 <div className="md:col-span-2">
@@ -178,7 +178,7 @@ export default function EducationPartnerPage() {
                     value={formData.website}
                     onChange={handleChange}
                     placeholder="https://"
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
                   />
                 </div>
                 <div className="md:col-span-2">
@@ -188,7 +188,7 @@ export default function EducationPartnerPage() {
                     name="address"
                     value={formData.address}
                     onChange={handleChange}
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
                   />
                 </div>
                 <div>
@@ -199,7 +199,7 @@ export default function EducationPartnerPage() {
                     value={formData.city}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
                   />
                 </div>
                 <div>
@@ -210,7 +210,7 @@ export default function EducationPartnerPage() {
                     value={formData.country}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
                   />
                 </div>
               </div>
@@ -218,7 +218,7 @@ export default function EducationPartnerPage() {
 
             {/* Contact Information */}
             <div className="bg-white p-6 rounded-xl shadow-sm border">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">Contact Information</h3>
+              <h3 className="text-lg font-semibold text-emerald-900 mb-4">Contact Information</h3>
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-1">Contact Person *</label>
@@ -228,7 +228,7 @@ export default function EducationPartnerPage() {
                     value={formData.contactPerson}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
                   />
                 </div>
                 <div>
@@ -239,7 +239,7 @@ export default function EducationPartnerPage() {
                     value={formData.jobTitle}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
                   />
                 </div>
                 <div>
@@ -250,7 +250,7 @@ export default function EducationPartnerPage() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
                   />
                 </div>
                 <div>
@@ -261,7 +261,7 @@ export default function EducationPartnerPage() {
                     value={formData.phone}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
                   />
                 </div>
               </div>
@@ -269,7 +269,7 @@ export default function EducationPartnerPage() {
 
             {/* Partnership Details */}
             <div className="bg-white p-6 rounded-xl shadow-sm border">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">Partnership Details</h3>
+              <h3 className="text-lg font-semibold text-emerald-900 mb-4">Partnership Details</h3>
               <div className="space-y-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">Type of Partnership (select all that apply) *</label>
@@ -288,7 +288,7 @@ export default function EducationPartnerPage() {
                           value={option.value}
                           checked={formData.partnershipType.includes(option.value)}
                           onChange={handleCheckboxChange}
-                          className="rounded border-gray-300 text-green-600 focus:ring-green-500"
+                          className="rounded border-gray-300 text-teal-700 focus:ring-green-500"
                         />
                         <span className="text-gray-700">{option.label}</span>
                       </label>
@@ -303,7 +303,7 @@ export default function EducationPartnerPage() {
                     onChange={handleChange}
                     rows={3}
                     placeholder="List the main programs or courses your institution offers..."
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
                   />
                 </div>
                 <div>
@@ -312,7 +312,7 @@ export default function EducationPartnerPage() {
                     name="scholarshipAvailable"
                     value={formData.scholarshipAvailable}
                     onChange={handleChange}
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
                   >
                     <option value="">Select option</option>
                     <option value="full">Full Scholarships Available</option>
@@ -330,7 +330,7 @@ export default function EducationPartnerPage() {
                     onChange={handleChange}
                     rows={4}
                     placeholder="Describe how your institution can contribute to educating children from orphanages..."
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
                   />
                 </div>
               </div>
@@ -344,7 +344,7 @@ export default function EducationPartnerPage() {
                   name="howHeard"
                   value={formData.howHeard}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
+                  className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
                 >
                   <option value="">Select an option</option>
                   <option value="search">Search Engine</option>
@@ -360,7 +360,7 @@ export default function EducationPartnerPage() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-4 px-6 rounded-lg transition-colors text-lg disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full bg-teal-600 hover:bg-teal-700 text-white font-semibold py-4 px-6 rounded-lg transition-colors text-lg disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {isSubmitting ? 'Submitting...' : 'Submit Partnership Application'}
             </button>

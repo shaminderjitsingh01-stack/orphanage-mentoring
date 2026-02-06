@@ -58,8 +58,8 @@ export default function CompanyPartnerPage() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
             </svg>
           </div>
-          <h1 className="text-3xl font-bold text-gray-900 mb-4">Partnership Request Submitted!</h1>
-          <p className="text-gray-600 mb-8">
+          <h1 className="text-3xl font-bold text-emerald-900 mb-4">Partnership Request Submitted!</h1>
+          <p className="text-emerald-800 mb-8">
             Thank you for your interest in partnering with us. Our team will review your
             application and contact you within 3-5 business days to discuss next steps.
           </p>
@@ -72,10 +72,10 @@ export default function CompanyPartnerPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-orange-500 to-orange-700 text-white py-16 px-4">
+      <section className="bg-gradient-to-br from-amber-600 to-amber-800 text-white py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Become a Corporate Partner</h1>
-          <p className="text-xl text-orange-100">
+          <p className="text-xl text-amber-100">
             Join our mission to empower the next generation. Your company can make a
             lasting impact through mentorship and career opportunities.
           </p>
@@ -83,17 +83,17 @@ export default function CompanyPartnerPage() {
       </section>
 
       {/* Benefits */}
-      <section className="py-12 bg-gray-50">
+      <section className="py-12 bg-stone-100">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white p-6 rounded-xl shadow-sm">
-              <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <div className="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                 </svg>
               </div>
-              <h3 className="font-bold text-gray-900 mb-2">CSR Impact</h3>
-              <p className="text-gray-600 text-sm">Make a meaningful difference in children&apos;s lives while fulfilling corporate social responsibility goals.</p>
+              <h3 className="font-bold text-emerald-900 mb-2">CSR Impact</h3>
+              <p className="text-emerald-800 text-sm">Make a meaningful difference in children&apos;s lives while fulfilling corporate social responsibility goals.</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
@@ -101,8 +101,8 @@ export default function CompanyPartnerPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
-              <h3 className="font-bold text-gray-900 mb-2">Employee Engagement</h3>
-              <p className="text-gray-600 text-sm">Provide meaningful volunteer opportunities that boost employee satisfaction and team building.</p>
+              <h3 className="font-bold text-emerald-900 mb-2">Employee Engagement</h3>
+              <p className="text-emerald-800 text-sm">Provide meaningful volunteer opportunities that boost employee satisfaction and team building.</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
@@ -110,8 +110,8 @@ export default function CompanyPartnerPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                 </svg>
               </div>
-              <h3 className="font-bold text-gray-900 mb-2">Future Talent Pipeline</h3>
-              <p className="text-gray-600 text-sm">Build relationships with motivated young people who could become future employees.</p>
+              <h3 className="font-bold text-emerald-900 mb-2">Future Talent Pipeline</h3>
+              <p className="text-emerald-800 text-sm">Build relationships with motivated young people who could become future employees.</p>
             </div>
           </div>
         </div>
@@ -120,12 +120,12 @@ export default function CompanyPartnerPage() {
       {/* Registration Form */}
       <section className="py-16 px-4">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">Partnership Application</h2>
+          <h2 className="text-2xl font-bold text-emerald-900 mb-8 text-center">Partnership Application</h2>
 
           <form onSubmit={handleSubmit} className="space-y-8">
             {/* Company Details */}
             <div className="bg-white p-6 rounded-xl shadow-sm border">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">Company Details</h3>
+              <h3 className="text-lg font-semibold text-emerald-900 mb-4">Company Details</h3>
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="md:col-span-2">
                   <label className="block text-sm font-medium text-gray-700 mb-1">Company Name *</label>
@@ -135,7 +135,7 @@ export default function CompanyPartnerPage() {
                     value={formData.companyName}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
                   />
                 </div>
                 <div>
@@ -145,7 +145,7 @@ export default function CompanyPartnerPage() {
                     value={formData.industry}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
                   >
                     <option value="">Select industry</option>
                     <option value="technology">Technology</option>
@@ -165,7 +165,7 @@ export default function CompanyPartnerPage() {
                     value={formData.companySize}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
                   >
                     <option value="">Select size</option>
                     <option value="1-50">1-50 employees</option>
@@ -183,7 +183,7 @@ export default function CompanyPartnerPage() {
                     value={formData.website}
                     onChange={handleChange}
                     placeholder="https://"
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
                   />
                 </div>
                 <div className="md:col-span-2">
@@ -193,7 +193,7 @@ export default function CompanyPartnerPage() {
                     name="address"
                     value={formData.address}
                     onChange={handleChange}
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
                   />
                 </div>
                 <div>
@@ -204,7 +204,7 @@ export default function CompanyPartnerPage() {
                     value={formData.city}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
                   />
                 </div>
                 <div>
@@ -215,7 +215,7 @@ export default function CompanyPartnerPage() {
                     value={formData.country}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
                   />
                 </div>
               </div>
@@ -223,7 +223,7 @@ export default function CompanyPartnerPage() {
 
             {/* Contact Information */}
             <div className="bg-white p-6 rounded-xl shadow-sm border">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">Contact Information</h3>
+              <h3 className="text-lg font-semibold text-emerald-900 mb-4">Contact Information</h3>
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-1">Contact Person *</label>
@@ -233,7 +233,7 @@ export default function CompanyPartnerPage() {
                     value={formData.contactPerson}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
                   />
                 </div>
                 <div>
@@ -244,7 +244,7 @@ export default function CompanyPartnerPage() {
                     value={formData.jobTitle}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
                   />
                 </div>
                 <div>
@@ -255,7 +255,7 @@ export default function CompanyPartnerPage() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
                   />
                 </div>
                 <div>
@@ -266,7 +266,7 @@ export default function CompanyPartnerPage() {
                     value={formData.phone}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
                   />
                 </div>
               </div>
@@ -274,7 +274,7 @@ export default function CompanyPartnerPage() {
 
             {/* Partnership Details */}
             <div className="bg-white p-6 rounded-xl shadow-sm border">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">Partnership Details</h3>
+              <h3 className="text-lg font-semibold text-emerald-900 mb-4">Partnership Details</h3>
               <div className="space-y-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">Type of Partnership (select all that apply) *</label>
@@ -292,7 +292,7 @@ export default function CompanyPartnerPage() {
                           value={option.value}
                           checked={formData.partnershipType.includes(option.value)}
                           onChange={handleCheckboxChange}
-                          className="rounded border-gray-300 text-orange-600 focus:ring-orange-500"
+                          className="rounded border-gray-300 text-amber-700 focus:ring-orange-500"
                         />
                         <span className="text-gray-700">{option.label}</span>
                       </label>
@@ -305,7 +305,7 @@ export default function CompanyPartnerPage() {
                     name="mentorCount"
                     value={formData.mentorCount}
                     onChange={handleChange}
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
                   >
                     <option value="">Select range</option>
                     <option value="1-5">1-5 mentors</option>
@@ -322,7 +322,7 @@ export default function CompanyPartnerPage() {
                     onChange={handleChange}
                     rows={4}
                     placeholder="Describe how you envision your company contributing to our mission..."
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
                   />
                 </div>
               </div>
@@ -336,7 +336,7 @@ export default function CompanyPartnerPage() {
                   name="howHeard"
                   value={formData.howHeard}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                  className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
                 >
                   <option value="">Select an option</option>
                   <option value="search">Search Engine</option>
@@ -352,7 +352,7 @@ export default function CompanyPartnerPage() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-4 px-6 rounded-lg transition-colors text-lg disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full bg-amber-600 hover:bg-amber-700 text-white font-semibold py-4 px-6 rounded-lg transition-colors text-lg disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {isSubmitting ? 'Submitting...' : 'Submit Partnership Application'}
             </button>
