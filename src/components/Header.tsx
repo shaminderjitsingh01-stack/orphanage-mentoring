@@ -46,25 +46,27 @@ export default function Header() {
               </button>
 
               {isPartnerDropdownOpen && (
-                <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border py-2">
-                  <Link
-                    href="/partner/orphanages"
-                    className="block px-4 py-2 text-emerald-900 hover:bg-emerald-50 hover:text-emerald-700"
-                  >
-                    Orphanages
-                  </Link>
-                  <Link
-                    href="/partner/companies"
-                    className="block px-4 py-2 text-emerald-900 hover:bg-emerald-50 hover:text-emerald-700"
-                  >
-                    Companies
-                  </Link>
-                  <Link
-                    href="/partner/education"
-                    className="block px-4 py-2 text-emerald-900 hover:bg-emerald-50 hover:text-emerald-700"
-                  >
-                    Education Institutes
-                  </Link>
+                <div className="absolute top-full left-0 pt-2 w-48">
+                  <div className="bg-white rounded-lg shadow-lg border py-2">
+                    <Link
+                      href="/partner/orphanages"
+                      className="block px-4 py-2 text-emerald-900 hover:bg-emerald-50 hover:text-emerald-700"
+                    >
+                      Orphanages
+                    </Link>
+                    <Link
+                      href="/partner/companies"
+                      className="block px-4 py-2 text-emerald-900 hover:bg-emerald-50 hover:text-emerald-700"
+                    >
+                      Companies
+                    </Link>
+                    <Link
+                      href="/partner/education"
+                      className="block px-4 py-2 text-emerald-900 hover:bg-emerald-50 hover:text-emerald-700"
+                    >
+                      Education Institutes
+                    </Link>
+                  </div>
                 </div>
               )}
             </div>
