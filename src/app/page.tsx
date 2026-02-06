@@ -4,8 +4,21 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-emerald-800 to-emerald-950 text-white py-28 md:py-36 px-4">
-        <div className="max-w-7xl mx-auto text-center">
+      <section className="relative text-white py-28 md:py-36 px-4 overflow-hidden">
+        {/* Video Background */}
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src="/hero-video.mp4" type="video/mp4" />
+        </video>
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-emerald-900/70"></div>
+
+        <div className="relative max-w-7xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-bold mb-8">
             Empowering Futures Through
             <span className="text-amber-400"> Mentorship</span>
