@@ -63,8 +63,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-emerald-700 mt-8 pt-8 text-center text-emerald-300">
+        <div className="border-t border-emerald-700 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center text-emerald-300 text-sm">
           <p>&copy; {new Date().getFullYear()} Orphanage Mentoring Initiative. All rights reserved.</p>
+          <p className="mt-2 sm:mt-0 text-emerald-400/60">made by <a href="https://shaminder.sg" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-300 transition-colors">shaminder.sg</a></p>
         </div>
       </div>
     </footer>
