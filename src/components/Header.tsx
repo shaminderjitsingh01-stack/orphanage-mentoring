@@ -22,7 +22,7 @@ export default function Header() {
               className="rounded-full"
             />
             <span className="font-bold text-xl text-emerald-900 hidden sm:block">
-              Orphanage Mentoring
+              Orphanage Mentoring Initiative
             </span>
           </Link>
 
